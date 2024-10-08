@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e3ee ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: #d19cbf ; 
+    font-size: 28px; 
+    margin-bottom: 15px; 
+}
+.blake {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blake td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.blake td:hover {
+    transform: scale(1.05);
+    background-color: #e9e9e9;
+}
+
+.blake img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 300px) {
+    .tabla-bonita {
+        width: 100%;
+    }
+}
